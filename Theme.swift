@@ -1,0 +1,3 @@
+import SwiftUI
+enum Theme { static let bgTop = Color(red:0.96,green:0.63,blue:0.23); static let bgMid = Color(red:0.85,green:0.41,blue:0.16); static let bgDark = Color(red:0.23,green:0.05,blue:0.03); static let ink = Color(red:0.94,green:0.98,blue:1.0); static let accent = Color(red:0.64,green:0.86,blue:1.0); static let card = Color(red:0.08,green:0.10,blue:0.16).opacity(0.92) }
+struct SunburstBackground: View { var body: some View { RadialGradient(gradient: Gradient(colors:[Theme.bgTop,Theme.bgMid,Theme.bgDark]), center: .center, startRadius: 40, endRadius: 900).ignoresSafeArea() } }

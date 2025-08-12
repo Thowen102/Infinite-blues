@@ -1,0 +1,14 @@
+
+name: InfiniteBlues
+options: { bundleIdPrefix: com.example }
+settings: { base: { IPHONEOS_DEPLOYMENT_TARGET: "15.0" } }
+targets:
+  InfiniteBlues:
+    type: application
+    platform: iOS
+    sources: [ { path: Sources } ]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.example.infiniteblues
+      INFOPLIST_FILE: Sources/Info.plist
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    scheme: { testTargets: [] }

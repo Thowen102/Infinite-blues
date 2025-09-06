@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, #a2d9ff 0%, #ffffff 100%);
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  color: #333;
+  font-size: 20px;
+}
+
+#restart {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+canvas {
+  display: block;
+  background: linear-gradient(180deg, #7ec0ee 0%, #e0f7fa 100%);
+  border-bottom: 4px solid #5c83b7;
+}
